@@ -41,7 +41,10 @@ The system reads instructions from a ROM, decodes them, and executes operations 
 
 ```
 
-├── Code
+├── Code/
+│ ├── design_EX3_1and2
+│ ├── IP_design3_Q3_Before modify
+│ ├── IP_design3_Q3
 ├── images/
 │ ├── VHDL_Source.png
 │ ├── VHDL_Testbench.png
