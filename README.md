@@ -2,23 +2,23 @@
 ROM–ALU system on Basys-3 with custom IP integration using Vivado
 # FPGA Project: ROM–ALU System with Custom IP Integration (Basys-3)
 
-📅 **Course**: IECE 531 – Reconfigurable Computing  
+📅 **Degree**: B.S/M.S. in Electrical and Computer Engineering
+📅 **Course**: Reconfigurable Computing/FPGA Project  
 🏫 **University**: University at Albany, SUNY  
 👨‍🏫 **Instructor**: Dr. James R. Moulic  
 📍 **Platform**: Xilinx Vivado + Basys-3 FPGA board  
-📄 **Report**: [Download Final Report (PDF)](Report/1_IECE531_DE3_ALU_v3.pdf)
 
 ---
 
 ## 🛠️ Project Overview
 
-This project demonstrates a complete ROM–ALU system developed on the Basys-3 board using Vivado. It includes:
+This FPGA project demonstrates a 3-part pipeline:
 
-- ROM instruction fetching
-- Instruction decoding
-- Execution through an ALU
-- Custom IP generation
-- Block Design with Vivado IP Integrator (IPI)
+1. **Part 1 – RTL Simulation**: Design and simulation of a ROM-to-ALU datapath in Vivado using VHDL.
+2. **Part 2 – IP Packaging**: The RTL module is packaged as a reusable **custom IP** using Vivado’s Packager tool.
+3. **Part 3 – IPI Block Design**: The packaged IP is instantiated inside a Vivado IP Integrator (IPI) project, with HDL wrappers and testbenches created for functional verification.
+
+The system reads instructions from a ROM, decodes them, and executes operations like `ADD`, `SUB`, `XOR`, `DIV`, and `SPECIAL` using the ALU.
 
 ---
 
@@ -31,16 +31,27 @@ This project demonstrates a complete ROM–ALU system developed on the Basys-3 b
 
 ---
 
+## 📥 Final Report
+
+📘 [Download Final Report (PDF)](Report/Report_Design_EX_3.pdf)
+
+---
+
 ## 🧩 Project Structure
 
 ```
 
 ├── Code
-├── src/ # VHDL source and IP wrapper files
-├── testbench/ # Testbench files for simulation
-├── images/ # Block diagram, board photos, waveform outputs
+├── images/
+│ ├── VHDL_Source.png
+│ ├── VHDL_Testbench.png
+│ ├── Simulation.png
+├── Board_Image/
+│ ├── Image-Part_1st
+│ ├── Block_Design.png
+│ ├── Image-Part_3rd
 ├── Report/
-│ └── 1_IECE531_DE3_ALU_v3.pdf # Final report
+│ └── Report_Design_EX_3.pdf
 ├── README.md
 
 ```
@@ -49,19 +60,17 @@ This project demonstrates a complete ROM–ALU system developed on the Basys-3 b
 
 ## 💻 Project Features
 
-- ✅ ROM stores instructions (ADD, SUB, XOR, etc.)
-- ✅ ALU executes instructions based on ROM output
-- ✅ Custom IP packaged and verified through IP catalog
-- ✅ Block Design (IPIBD) created using Vivado Flow Navigator
-- ✅ Timing simulation in Vivado matches expected output
-- ✅ Successfully implemented and tested on Basys-3
-
+- ✅ ROM instruction format: 13-bit binary encoding
+- ✅ Supports basic ALU operations (ADD, SUB, XOR, DIV, etc.)
+- ✅ Custom IP packaged and reused in IP Integrator (IPI)
+- ✅ HDL wrapper and testbench created for simulation
+- ✅ Fully verified timing waveform and board execution
 ---
 
-## 🖼️ Simulation & Hardware Results
+## 🖼️ Results
 
 ### 📈 Vivado Simulation
-![Timing Diagram](images/Vivado_Waveform_Result.png)
+![Timing Diagram](images/Simulation.png)
 
 ### 🧪 Basys-3 Output Examples
 
@@ -73,13 +82,13 @@ This project demonstrates a complete ROM–ALU system developed on the Basys-3 b
 | `1110`  | Special Op| 1 | ✅ Verified |
 | `1001`  | XOR       | 1 | ✅ Verified |
 
-*See actual board photos in `/images`.*
+*See actual board photos in `/Board_Image`.*
 
 ---
 
 ## 📥 Downloads
 
-- 📘 [Final Report (PDF)](Report/1_IECE531_DE3_ALU_v3.pdf)
+- 📘 [Final Report (PDF)](Report/Report_Design_EX_3.pdf)
 - 🔗 [View on GitHub](https://github.com/drsarojshah/fpga-rom-alu-system)
 
 ---
