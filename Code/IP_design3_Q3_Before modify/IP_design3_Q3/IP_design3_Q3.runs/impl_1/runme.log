@@ -1,0 +1,415 @@
+
+*** Running vivado
+    with args -log design_IP_design3_Q3_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source design_IP_design3_Q3_wrapper.tcl -notrace
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_IP_design3_Q3_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 507.531 ; gain = 221.410
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/OmenLaptop/Vivado/design_EX3_1and2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+Command: link_design -top design_IP_design3_Q3_wrapper -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_blk_mem_gen_0_0/design_IP_design3_Q3_blk_mem_gen_0_0.dcp' for cell 'design_IP_design3_Q3_i/blk_mem_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_IP_design3_Q3_design_EX3_1and2_0_0.dcp' for cell 'design_IP_design3_Q3_i/design_EX3_1and2_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 935.883 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc] for cell 'design_IP_design3_Q3_i/design_EX3_1and2_0/U0'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:11]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:12]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:13]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:14]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:15]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:16]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:17]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:18]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:20]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:21]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:48]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:49]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:50]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:51]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:52]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:53]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:54]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:55]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:56]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:57]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:58]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:59]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:60]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:61]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:62]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:63]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:64]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:65]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:66]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:67]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:68]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:69]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:70]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:71]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:72]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:73]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'PACKAGE_PIN', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:74]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'IOSTANDARD', because the property does not exist for objects of type 'pin'. [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc:75]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+Finished Parsing XDC File [c:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/design_EX3_1and2.srcs/constrs_1/new/design_EX3_1and2_CF.xdc] for cell 'design_IP_design3_Q3_i/design_EX3_1and2_0/U0'
+Parsing XDC File [C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.srcs/constrs_1/new/IP_Design3_Q3_CF.xdc]
+Finished Parsing XDC File [C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.srcs/constrs_1/new/IP_Design3_Q3_CF.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1043.051 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+12 Infos, 0 Warnings, 38 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.579 . Memory (MB): peak = 1070.988 ; gain = 27.938
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1a852ca0e
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1598.688 ; gain = 527.699
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 1a852ca0e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1973.828 ; gain = 0.000
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 1a852ca0e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Phase 1 Initialization | Checksum: 1a852ca0e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1973.828 ; gain = 0.000
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 1a852ca0e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1973.828 ; gain = 0.000
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 1a852ca0e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Phase 2 Timer Update And Timing Data Collection | Checksum: 1a852ca0e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1973.828 ; gain = 0.000
+
+Phase 3 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 1a852ca0e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Retarget | Checksum: 1a852ca0e
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 192b68cef
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Constant propagation | Checksum: 192b68cef
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+Phase 5 Sweep | Checksum: 1a07aed8d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Sweep | Checksum: 1a07aed8d
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 BUFG optimization
+Phase 6 BUFG optimization | Checksum: 1a07aed8d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1973.828 ; gain = 0.000
+BUFG optimization | Checksum: 1a07aed8d
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1a07aed8d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Shift Register Optimization | Checksum: 1a07aed8d
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 1a07aed8d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Post Processing Netlist | Checksum: 1a07aed8d
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 1f629d8b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1973.828 ; gain = 0.000
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 1f629d8b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Phase 9 Finalization | Checksum: 1f629d8b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1973.828 ; gain = 0.000
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 1f629d8b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 1973.828 ; gain = 0.000
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1973.828 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 1 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 2
+Ending PowerOpt Patch Enables Task | Checksum: 1f629d8b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1f629d8b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.455 . Memory (MB): peak = 2043.922 ; gain = 70.094
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1f629d8b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2043.922 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1f629d8b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2043.922 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+35 Infos, 1 Warnings, 38 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2043.922 ; gain = 1000.871
+INFO: [runtcl-4] Executing : report_drc -file design_IP_design3_Q3_wrapper_drc_opted.rpt -pb design_IP_design3_Q3_wrapper_drc_opted.pb -rpx design_IP_design3_Q3_wrapper_drc_opted.rpx
+Command: report_drc -file design_IP_design3_Q3_wrapper_drc_opted.rpt -pb design_IP_design3_Q3_wrapper_drc_opted.pb -rpx design_IP_design3_Q3_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.runs/impl_1/design_IP_design3_Q3_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 2043.922 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.runs/impl_1/design_IP_design3_Q3_wrapper_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 11c856d5f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2043.922 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced IO Ports (15) is greater than number of available pins (12).
+The following are banks with available pins: 
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 12 sites available on device, but needs 14 sites.
+	Term: douta_0[0]
+	Term: douta_0[1]
+	Term: douta_0[2]
+	Term: douta_0[3]
+	Term: douta_0[4]
+	Term: douta_0[5]
+	Term: douta_0[6]
+	Term: douta_0[7]
+	Term: douta_0[8]
+	Term: douta_0[9]
+	Term: douta_0[10]
+	Term: douta_0[11]
+	Term: douta_0[12]
+	Term: douta_0[13]
+
+
+Resolution: Consider using Xilinx part with greater number of IO pins
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 14 |    50 |    14 | LVCMOS33(14)                                                           |                                          |        |  +3.30 |    YES |     |
+| 16 |    12 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    24 |     3 | LVCMOS33(3)                                                            |                                          |        |  +3.30 |    YES |     |
+| 35 |    20 |     2 | LVCMOS33(2)                                                            |                                          |        |  +3.30 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   106 |    19 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 14     | Addr_0[0]            | LVCMOS33        | IOB_X0Y11            | V17                  | *                    |
+|        | Addr_0[1]            | LVCMOS33        | IOB_X0Y12            | V16                  |                      |
+|        | Addr_0[2]            | LVCMOS33        | IOB_X0Y10            | W16                  |                      |
+|        | Addr_0[3]            | LVCMOS33        | IOB_X0Y9             | W17                  |                      |
+|        | S_0                  | LVCMOS33        | IOB_X0Y7             | W15                  |                      |
+|        | mux_out_0[0]         | LVCMOS33        | IOB_X0Y3             | U16                  |                      |
+|        | mux_out_0[1]         | LVCMOS33        | IOB_X0Y43            | E19                  |                      |
+|        | mux_out_0[2]         | LVCMOS33        | IOB_X0Y20            | U19                  |                      |
+|        | mux_out_0[3]         | LVCMOS33        | IOB_X0Y19            | V19                  |                      |
+|        | mux_out_0[4]         | LVCMOS33        | IOB_X0Y18            | W18                  |                      |
+|        | mux_out_0[5]         | LVCMOS33        | IOB_X0Y4             | U15                  |                      |
+|        | mux_out_0[6]         | LVCMOS33        | IOB_X0Y0             | U14                  |                      |
+|        | mux_out_0[7]         | LVCMOS33        | IOB_X0Y1             | V14                  |                      |
+|        | mux_out_0[8]         | LVCMOS33        | IOB_X0Y2             | V13                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | mux_out_0[10]        | LVCMOS33        | IOB_X1Y37            | W3                   | *                    |
+|        | mux_out_0[11]        | LVCMOS33        | IOB_X1Y32            | U3                   |                      |
+|        | mux_out_0[9]         | LVCMOS33        | IOB_X1Y38            | V3                   |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 35     | mux_out_0[12]        | LVCMOS33        | IOB_X1Y75            | P3                   |                      |
+|        | mux_out_0[13]        | LVCMOS33        | IOB_X1Y76            | N3                   |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 11c856d5f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 2043.922 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 11c856d5f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 2043.922 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 11c856d5f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 2043.922 ; gain = 0.000
+51 Infos, 1 Warnings, 38 Critical Warnings and 4 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 19 00:17:02 2024...

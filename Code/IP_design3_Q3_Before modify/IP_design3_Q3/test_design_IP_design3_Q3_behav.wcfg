@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_design_IP_design3_Q3_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_design_IP_design3_Q3" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,143.791 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="209"></NameColumnWidth>
+      <ValueColumnWidth column_width="256"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/test_design_IP_design3_Q3/DUT/design_EX3_1and2_0/U0/rom_array" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rom_array[0:15][13:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_array[0:15][13:0]</obj_property>
+      <obj_property name="label">Instruction ROM Contents</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_design_IP_design3_Q3/Addr_0" type="array">
+      <obj_property name="ElementShortName">Addr_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr_0[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_design_IP_design3_Q3/S_0" type="logic">
+      <obj_property name="ElementShortName">S_0</obj_property>
+      <obj_property name="ObjectShortName">S_0</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_design_IP_design3_Q3/clka_0" type="logic">
+      <obj_property name="ElementShortName">clka_0</obj_property>
+      <obj_property name="ObjectShortName">clka_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_design_IP_design3_Q3/DUT/design_EX3_1and2_0/U0/data_out" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_out[13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[13:0]</obj_property>
+      <obj_property name="label">Fetched</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_design_IP_design3_Q3/DUT/design_EX3_1and2_0/U0/Opcode_signal" type="array">
+      <obj_property name="ElementShortName">Opcode_signal[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Opcode_signal[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_design_IP_design3_Q3/DUT/design_EX3_1and2_0/U0/A_signal" type="array">
+      <obj_property name="ElementShortName">A_signal[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A_signal[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_design_IP_design3_Q3/DUT/design_EX3_1and2_0/U0/B_signal" type="array">
+      <obj_property name="ElementShortName">B_signal[4:0]</obj_property>
+      <obj_property name="ObjectShortName">B_signal[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_design_IP_design3_Q3/mux_out_0" type="array">
+      <obj_property name="ElementShortName">mux_out_0[13:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_out_0[13:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_design_IP_design3_Q3/douta_0" type="array">
+      <obj_property name="ElementShortName">douta_0[13:0]</obj_property>
+      <obj_property name="ObjectShortName">douta_0[13:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

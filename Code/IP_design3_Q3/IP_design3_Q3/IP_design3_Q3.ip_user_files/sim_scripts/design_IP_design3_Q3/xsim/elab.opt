@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt 2  -L xil_defaultlib -L secureip -L xpm --snapshot design_IP_design3_Q3 xil_defaultlib.design_IP_design3_Q3 -log elaborate.log

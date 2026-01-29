@@ -1,0 +1,24 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-585,-255",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_S_0 -pg 1 -lvl 0 -x -20 -y -70 -defaultsOSRD
+preplace port port-id_clka_0 -pg 1 -lvl 0 -x -20 -y 220 -defaultsOSRD
+preplace portBus Addr_0 -pg 1 -lvl 0 -x -20 -y -100 -defaultsOSRD
+preplace portBus mux_out_0 -pg 1 -lvl 2 -x 250 -y -80 -defaultsOSRD
+preplace portBus douta_0 -pg 1 -lvl 2 -x 250 -y 240 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 1 -x 120 -y 220 -defaultsOSRD
+preplace inst design_EX3_1and2_0 -pg 1 -lvl 1 -x 120 -y -80 -defaultsOSRD
+preplace netloc Addr_0_1 1 0 1 10J -100n
+preplace netloc S_0_1 1 0 1 NJ -70
+preplace netloc design_EX3_1and2_0_mux_out 1 1 1 N -80
+preplace netloc clka_0_1 1 0 1 0 220n
+preplace netloc blk_mem_gen_0_douta 1 0 2 10 310 230J
+levelinfo -pg 1 -20 120 250
+pagesize -pg 1 -db -bbox -sgen -150 -150 420 340
+"
+}
+

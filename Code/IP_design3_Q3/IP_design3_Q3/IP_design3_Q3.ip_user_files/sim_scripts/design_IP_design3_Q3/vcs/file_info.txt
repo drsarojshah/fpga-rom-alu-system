@@ -1,0 +1,7 @@
+xpm_memory.sv,systemverilog,xpm,../../../../../../../../Xilinx/Vivado/2023.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../Xilinx/Vivado/2023.2/data/ip/xpm/xpm_VCOMP.vhd,
+design_IP_design3_Q3_blk_mem_gen_0_0_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_blk_mem_gen_0_0/design_IP_design3_Q3_blk_mem_gen_0_0_sim_netlist.vhdl,
+design_EX3_1and2.vhd,vhdl,xil_defaultlib,../../../bd/design_IP_design3_Q3/ipshared/7df4/design_EX3_1and2.srcs/sources_1/new/design_EX3_1and2.vhd,
+design_IP_design3_Q3_design_EX3_1and2_0_0.vhd,vhdl,xil_defaultlib,../../../bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/sim/design_IP_design3_Q3_design_EX3_1and2_0_0.vhd,
+design_IP_design3_Q3.vhd,vhdl,xil_defaultlib,../../../bd/design_IP_design3_Q3/sim/design_IP_design3_Q3.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

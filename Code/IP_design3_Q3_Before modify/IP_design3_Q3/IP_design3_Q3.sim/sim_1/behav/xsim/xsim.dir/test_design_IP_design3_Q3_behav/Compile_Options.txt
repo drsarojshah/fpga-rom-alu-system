@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "test_design_IP_design3_Q3_behav" "xil_defaultlib.test_design_IP_design3_Q3" -log "elaborate.log" 

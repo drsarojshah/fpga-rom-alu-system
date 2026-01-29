@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="design_EX3_1and2_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="design_EX3_1and2_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,676.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="309"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/design_EX3_1and2_TB/uut/rom_array" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rom_array[0:15][13:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_array[0:15][13:0]</obj_property>
+      <obj_property name="label">Instruction, rom_array Contents</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_EX3_1and2_TB/Addr" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr[3:0]</obj_property>
+      <obj_property name="label">Addr, Instrucion address</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_EX3_1and2_TB/S" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+      <obj_property name="label">S, output selector</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_EX3_1and2_TB/uut/data_out" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">data_out[13:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[13:0]</obj_property>
+      <obj_property name="label">Fetched instruction, data_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_EX3_1and2_TB/uut/Opcode_signal" type="array">
+      <obj_property name="ElementShortName">Opcode_signal[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Opcode_signal[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_EX3_1and2_TB/uut/A_signal" type="array">
+      <obj_property name="ElementShortName">A_signal[4:0]</obj_property>
+      <obj_property name="ObjectShortName">A_signal[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_EX3_1and2_TB/uut/B_signal" type="array">
+      <obj_property name="ElementShortName">B_signal[4:0]</obj_property>
+      <obj_property name="ObjectShortName">B_signal[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_EX3_1and2_TB/uut/ALU_out" type="array">
+      <obj_property name="ElementShortName">ALU_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/design_EX3_1and2_TB/mux_out" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mux_out[13:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_out[13:0]</obj_property>
+      <obj_property name="label">Output, mux_out[13:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

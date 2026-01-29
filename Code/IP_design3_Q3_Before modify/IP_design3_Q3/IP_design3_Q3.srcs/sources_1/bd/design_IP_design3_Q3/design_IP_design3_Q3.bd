@@ -1,0 +1,139 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xED53BC5A213F3463",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3",
+      "name": "design_IP_design3_Q3",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "blk_mem_gen_0": "",
+      "design_EX3_1and2_0": ""
+    },
+    "ports": {
+      "Addr_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "S_0": {
+        "direction": "I"
+      },
+      "mux_out_0": {
+        "direction": "O",
+        "left": "13",
+        "right": "0"
+      },
+      "clka_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_IP_design3_Q3_clka_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "douta_0": {
+        "direction": "O",
+        "left": "13",
+        "right": "0"
+      }
+    },
+    "components": {
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "ip_revision": "7",
+        "xci_name": "design_IP_design3_Q3_blk_mem_gen_0_0",
+        "xci_path": "ip\\design_IP_design3_Q3_blk_mem_gen_0_0\\design_IP_design3_Q3_blk_mem_gen_0_0.xci",
+        "inst_hier_path": "blk_mem_gen_0",
+        "parameters": {
+          "Coe_File": {
+            "value": "../../../../../../../design_EX3_1and2/design_IP_design3_Q3_blk_mem_gen_0_0.coe"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Fill_Remaining_Memory_Locations": {
+            "value": "true"
+          },
+          "Load_Init_File": {
+            "value": "true"
+          },
+          "Memory_Type": {
+            "value": "Single_Port_ROM"
+          },
+          "Write_Depth_A": {
+            "value": "16"
+          },
+          "Write_Width_A": {
+            "value": "14"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "design_EX3_1and2_0": {
+        "vlnv": "xilinx.com:user:design_EX3_1and2:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_IP_design3_Q3_design_EX3_1and2_0_0",
+        "xci_path": "ip\\design_IP_design3_Q3_design_EX3_1and2_0_0\\design_IP_design3_Q3_design_EX3_1and2_0_0.xci",
+        "inst_hier_path": "design_EX3_1and2_0"
+      }
+    },
+    "nets": {
+      "Addr_0_1": {
+        "ports": [
+          "Addr_0",
+          "design_EX3_1and2_0/Addr",
+          "blk_mem_gen_0/addra"
+        ]
+      },
+      "S_0_1": {
+        "ports": [
+          "S_0",
+          "design_EX3_1and2_0/S"
+        ]
+      },
+      "blk_mem_gen_0_douta": {
+        "ports": [
+          "blk_mem_gen_0/douta",
+          "douta_0"
+        ]
+      },
+      "clka_0_1": {
+        "ports": [
+          "clka_0",
+          "blk_mem_gen_0/clka"
+        ]
+      },
+      "design_EX3_1and2_0_mux_out": {
+        "ports": [
+          "design_EX3_1and2_0/mux_out",
+          "mux_out_0"
+        ]
+      }
+    }
+  }
+}

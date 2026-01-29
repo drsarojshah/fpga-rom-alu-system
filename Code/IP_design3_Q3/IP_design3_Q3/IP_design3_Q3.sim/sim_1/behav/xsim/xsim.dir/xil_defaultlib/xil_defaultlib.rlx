@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.gen/sources_1/bd/design_IP_design3_Q3/hdl/design_IP_design3_Q3_wrapper.vhd,1713556992,vhdl,,,,design_ip_design3_q3_wrapper,,,,,,,,
+C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.ip_user_files/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_blk_mem_gen_0_0/design_IP_design3_Q3_blk_mem_gen_0_0_sim_netlist.vhdl,1713492638,vhdl,,,,design_ip_design3_q3_blk_mem_gen_0_0;design_ip_design3_q3_blk_mem_gen_0_0_blk_mem_gen_generic_cstr;design_ip_design3_q3_blk_mem_gen_0_0_blk_mem_gen_prim_width;design_ip_design3_q3_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper_init;design_ip_design3_q3_blk_mem_gen_0_0_blk_mem_gen_top;design_ip_design3_q3_blk_mem_gen_0_0_blk_mem_gen_v8_4_7;design_ip_design3_q3_blk_mem_gen_0_0_blk_mem_gen_v8_4_7_synth,,,,,,,,
+C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.ip_user_files/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_blk_mem_gen_0_0/sim/design_IP_design3_Q3_blk_mem_gen_0_0.v,1713371549,verilog,,,,design_IP_design3_Q3_blk_mem_gen_0_0,,,,,,,,
+C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.ip_user_files/bd/design_IP_design3_Q3/ip/design_IP_design3_Q3_design_EX3_1and2_0_0/sim/design_IP_design3_Q3_design_EX3_1and2_0_0.vhd,1713552318,vhdl,,,,design_ip_design3_q3_design_ex3_1and2_0_0,,,,,,,,
+C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.ip_user_files/bd/design_IP_design3_Q3/ipshared/7df4/design_EX3_1and2.srcs/sources_1/new/design_EX3_1and2.vhd,1713371550,vhdl,,,,design_ex3_1and2,,,,,,,,
+C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.ip_user_files/bd/design_IP_design3_Q3/sim/design_IP_design3_Q3.vhd,1713556992,vhdl,,,,design_ip_design3_q3,,,,,,,,
+C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/OmenLaptop/Vivado/IP_design3_Q3/IP_design3_Q3.srcs/sim_1/imports/Vivado/test_design_IP_design3_Q3.vhd,1713556720,vhdl,,,,test_design_ip_design3_q3,,,,,,,,
