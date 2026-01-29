@@ -71,6 +71,7 @@ The system reads instructions from a ROM, decodes them, and executes operations 
 ---
 
 ## 🖼️ Results
+![Board Images](Board_Image)
 
 ### 📈 Vivado Simulation
 ![Timing Diagram](images/Simulation.png)
