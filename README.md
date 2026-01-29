@@ -51,7 +51,7 @@ The system reads instructions from a ROM, decodes them, and executes operations 
 │ ├── Simulation.png
 ├── Board_Image/
 │ ├── Image-Part_1st
-│ ├── Block_Design.png
+│ ├── Block_Design
 │ ├── Image-Part_3rd
 ├── Report/
 │ └── Report_Design_EX_3.pdf
